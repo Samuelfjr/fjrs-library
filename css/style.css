@@ -17,6 +17,21 @@ body {
     padding: 0 1rem;
 }
 
+header, 
+.hero-section, 
+.main-section, 
+footer {
+    border: 1px solid var(--color-black);
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+header img {
+    display: block;
+    width: 60%;
+    margin: 1rem auto;
+}
+
 .mt-1 {
     margin-top: 1rem;
 }
