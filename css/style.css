@@ -151,6 +151,12 @@ h2 {
     padding: 2rem 0 0 2rem;
 }
 
+.card:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    outline: 1px solid var(--color-black);
+}
+
 .card:nth-child(2n) {
     align-self: end;
     background-color: var(--color-secondary);
