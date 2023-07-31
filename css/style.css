@@ -10,6 +10,8 @@
     --color-secondary: #6f81f9;
     --color-black: #000;
     --color-white: #fff;
+    --color-link-hover: #dadad8;
+
 }
 
 body {
@@ -41,6 +43,10 @@ header nav {
     margin: 1rem auto 0;
 }
 
+header .container nav a:hover {
+    color: var(--color-link-hover);
+}
+
 nav a {
     text-decoration: none;
     color: var(--color-black);
@@ -64,6 +70,10 @@ header nav a:nth-child(2n-1) {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.button:hover {
+
 }
 
 .hero-section {
@@ -172,6 +182,10 @@ footer {
 footer nav a {
     display: block;
     padding-left: 0;
+}
+
+footer nav a:hover {
+    color: var(--color-link-hover);
 }
 
 .newsletter-form label {
