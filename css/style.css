@@ -146,7 +146,7 @@ h2 {
 .card {
     background-color: var(--color-primary);
     border: 2px solid var(--color-black);
-    box-shadow: 4px 4px 0 var(--color-black);
+    box-shadow: 10px 12px 20px -15px var(--color-black);
     max-width: 17rem;
     padding: 2rem 0 0 2rem;
 }
